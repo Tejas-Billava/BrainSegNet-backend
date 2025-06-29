@@ -1,0 +1,11 @@
+# Prevent huge context uploads
+.git
+.venv
+__pycache__
+*.ipynb
+*.pth
+*.npz
+*.onnx
+dataset/
+weights/
+hf-cache/
