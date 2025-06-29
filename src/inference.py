@@ -1,6 +1,6 @@
 from pathlib import Path
 import torch,os
-from unet import UNet
+from src.unet import UNet
 import cv2,base64
 import numpy as np 
 import albumentations as A

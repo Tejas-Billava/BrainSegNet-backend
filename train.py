@@ -1,6 +1,6 @@
 import torch
 from unet_parts import DoubleConv,DownSample,UpSample
-from unet import UNet
+from src.unet import UNet
 best_model_PATH = "../models/unet_best.pth"  
 from MRIDataset import MRIDataset
 from loss_fun_helper import dice_coef, criterion
